@@ -1,0 +1,12 @@
+[programs.devnet]
+soshi = "BjrMMxAWG9YBuoY6mv7h5dZRbKQrFSwi88sJPSpW2HPC"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/deep/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
